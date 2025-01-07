@@ -9,23 +9,22 @@
 </head>
 
 <body>
+    <nav class="navbar" id="navbar">
+        <h1>My Portfolio</h1>
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="#about-me">About Me!</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact Me!</a></li>
+        </ul>
+    </nav>
     <header>
-        <nav>
-            <h1>My Portfolio</h1>
-            <ul>
-                <li><a href="Index.html">Home</a></li>
-                <li><a href="#about-me">About Me!</a></li>
-                <li><a href="#">My Works</a></li>
-                <li><a href="#">Background</a></li>
-                <li><a href="#">Contact Me!</a></li>
-            </ul>
-        </nav>
-
-        <section>
+        <div class="header-content">
             <h2>Hi, I'm <span>Hemant Kumar Srivastava</span></h2>
             <p>"I am a web developer passionate about creating intuitive and engaging websites."</p>
             <a href="#" class="cta">Hire Me!</a>
-        </section>
+        </div>
         <img src="Assets/header_img.svg" alt="Header_img" />
     </header>
     <main>
@@ -34,17 +33,45 @@
             <div class="about-me-content">
                 <img src="/Assets/Profile_Picture.jpeg" alt="Profile_Picture">
                 <div class="about-me-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut
-                        labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur.</p>
-                    <a href="#" class="cta">Download CV</a>
+                    <p>I'm a dedicated and innovative web developer based in Uttar Pradesh, India. Since completing my
+                        10th grade in 2015 and 12th grade in 2017, i have honed my skills in modern web technologies and
+                        design. With a strong commitment to creating seamless user experiences, I'm specializes in
+                        building dynamic, responsive websites that blend functionality with aesthetic appeal.
+                        <br><br>
+                        Outside of coding, I enjoys learning about emerging technologies and collaborating with other
+                        professionals to push the boundaries of what’s possible on the web. They are driven by a passion
+                        for problem-solving and a desire to create impactful digital experiences.
+                    </p>
+                    <a href="Assets/Resume.pdf" class="cta">Download CV</a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="Projects" class="Projects">
+            <h2>Projects</h2>
+            <div class="Projects-content">
+                <div class="Projects-card">
+                    <img src="Assets/Project_1.png" alt="Project1">
+                    <h3>Project 1</h3>
+                    <p>A Fully functional TIC-TAE-TOE game, with using simple HTML,CSS & JS.</p>
+                    <a href="#" class="cta">View Project</a>
+                </div>
+                <div class="Projects-card">
+                    <img src="Assets/Project_2.png" alt="Project2">
+                    <h3>Project 2</h3>
+                    <p>Parallex Website, Background Changes on Page scroll.</p>
+                    <a href="#" class="cta">View Project</a>
+                </div>
+                <div class="Projects-card">
+                    <img src="Assets/Project_3.png" alt="Project3">
+                    <h3>Project 3</h3>
+                    <p>Swiftly, A fully functional movers and shifting application.</p>
+                    <a href="#" class="cta">View Project</a>
                 </div>
             </div>
         </section>
     </main>
-
+    
 </body>
 
 </html>
